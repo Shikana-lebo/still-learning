@@ -1,0 +1,79 @@
+.container{
+    background-color: rgba(0, 0,0, 0.8);
+    color: white;
+    margin: 5rem 5rem 2rem 20rem;
+    padding: 1rem;
+    padding: auto 0;
+    width:50vw;
+    height: 53vh;
+    max-width: 80%;
+    
+
+}
+legend{
+    display: flex;
+    font-size: 2em;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+h2{
+    align-items: center;
+    text-align: center;
+    font-size: 1.8em;
+    padding: 0 auto;
+}
+h3{
+    align-items: center;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 0 auto;
+}
+hr{
+    color: white;
+}
+label{
+    font-size: 1.2em;
+}
+#txtRadius{
+    margin: 5px 10px;
+    padding: 0.35rem;
+    border-radius: 3px;
+    width: 180px;
+    cursor:pointer;
+}
+#btnCalculate{
+    margin: 5px 0px; 
+    border-radius: 3px;
+    padding: 0.3rem;
+    position: relative;
+    left: 70px;
+    width:90px;
+}
+#btnReset{
+    margin: 5px 0px; 
+    border-radius: 3px;
+    padding: 0.25rem;
+    width: 98px;
+    position: relative;
+    left: 70px;
+}
+#options{
+    margin: 5px 0px; 
+    border-radius: 3px;
+    padding: 0.3rem;
+    width: fit-content;
+    height: 2rem; 
+}
+#txtAnswer{
+    font-size: 1.2em;
+   
+}
+
+/*MEDIA QUERIES*/
+@media (max=700px) {
+    .container{
+        width: 100%;
+    }
+    
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <fieldset><legend>🔵Circle's Area Calculation</legend>
+        <h2>Formular<h3>Area : πr^2</h3></h2>
+        <hr>
+        <label for="txtRadius">Radius <input type="text" id="txtRadius" required placeholder="Please enter the radius..."/></label>
+        <select name="" id="options"><option>feet</option>
+            <option>yards</option>
+            <option>miles</option>
+            <option>kilometers</option>
+            <option>centimeters</option>
+        </select>
+        <br>
+        <input type="button" value="Calculate" id="btnCalculate" onclick="calculate()"/>
+        <input type="button" value="Reset" onclick="clear()" id="btnReset"/>
+        <br>
+        <p id="txtAnswer">The Area of this circle is 0</p>
+
+        </fieldset>
+    </div>
+    
+    <script src="java.js"></script>
+</body>
+</html>
