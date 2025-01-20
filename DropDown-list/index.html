@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown list- background change</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body id="body">
+ <!--A simple program of changing the background color of page, using html and JavaScript-->
+    <center><h1>Choose your background color</h1>
+    <hr>
+    <br> 
+    <label for="" style="font-weight: bolder; font-size: 1.3rem;">Prefered background color :</label>
+    <select name="select" id="select-form" onchange="dropDown()">
+        <option value="">Select a color</option>
+        <option value="green">green</option>
+        <option value="red">red</option>
+        <option value="black">black</option>
+        <option value="blue">blue</option>
+    </select>
+    <br>
+    <br>
+    <span id="display-message" style="font-weight: bold;font-size: 1.15rem;"></span>
+    
+</center>
+    <script src="script.js"></script>
+</body>
+</html>
